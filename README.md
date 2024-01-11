@@ -1,5 +1,5 @@
 ## Visão Geral
-Aplicativo Flutter que utiliza a geolocalização do dispositivo móvel para fornecer aos usuários informações instantâneas sobre sua localização exata e a temperatura ambiente atual.
+Aplicativo Flutter que utiliza a geolocalização do dispositivo móvel para fornecer aos usuários informações instantâneas sobre sua temperatura ambiente atual.
 
 ## Recursos Principais
 1. **Geolocalização do Celular:**
