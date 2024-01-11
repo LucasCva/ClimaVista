@@ -27,7 +27,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
     final screenWidht = MediaQuery.of(context).size.width;
-
     return SafeArea(
       child: Scaffold(
         body: AnimatedBuilder(
@@ -48,6 +47,7 @@ class _HomePageState extends State<HomePage> {
             } else {
               final temp = store.state.value?.temperatura.toString();
               final city = store.state.value?.cidade;
+
               return Stack(
                 children: [
                   Container(
